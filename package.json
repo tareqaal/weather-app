@@ -1,0 +1,19 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "weather application using React in the fronend and express as an api backend ",
+  "main": "",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix react-app",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tareqaal/weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/tareqaal/weather-app.git"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "View the forecasted daily weather conditions",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Tarek Abo Alainein",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/register": "^7.13.14",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "favicons": "^6.2.1",
+    "favicons-webpack-plugin": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.0",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "moment-timezone": "^0.5.33",
+    "react": "^17.0.2",
+    "react-animated-weather": "^4.0.1",
+    "react-dom": "^17.0.2",
+    "react-live-clock": "^5.0.16",
+    "react-moment": "^1.1.1",
+    "react-router-dom": "^5.2.0",
+    "rxjs": "^6.6.7"
+  }
+}
